@@ -1,0 +1,11 @@
+ROUTINE Exercicio1
+Exercicio1
+ Read "digite valor de x: ",x
+ Read "digite valor de y: ",y
+ Set cont=0
+ For a=x:1:y
+ {
+	If (a*10)#0 Set cont=cont+1 
+ }
+ Write !,"Total de No. pares, entre"_x_" e "_y_" = "_cont
+ Quit

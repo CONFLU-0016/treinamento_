@@ -1,0 +1,14 @@
+ROUTINE Exercicio4
+Exercicio4
+ Write !,"Informe: ",!
+ Read "Matricula .......: ",matricula
+ Read "Nome Completo....: ",nome
+ Read "Telefone.........: ",telefone
+ Read "Data Nascimento..: ",dataNascimento
+ Read "Sexo.............: ",sexo
+ 
+ Write "Matricula .......: ",matricula,!
+ Write "Nome Completo....: ",nome,!
+ Write "Telefone.........: ",telefone,!
+ Write "Data Nascimento..: ",dataNascimento,!
+ Write "Sexo.............: ",sexo

@@ -1,0 +1,47 @@
+ROUTINE Exercicio3
+Exercicio3
+ Read "digite numero 1: ",n1
+ Read "digite numero 2: ",n2
+ Read "digite numero 3: ",n3
+ 
+ Set (cont1,cont2,cont3)=0
+ 
+ ;4.1
+ Write !,"Exercicio_1"
+ For a=n1:1:n2
+ {
+	If a#11=5 
+	{
+		Set cont1=cont1+1
+		write a_" é divisivel por 11 c/ resto 5",!
+ 	}
+ 	Write !,cont1
+ } 
+
+ ;4.2
+ Write !,"Exercicio_2"
+ For a=n2:1:n3
+ {
+	If a#3=0
+	{
+		Set cont2=cont2+1
+		Write a_" é divisivel por 3",!
+	}
+	write !,cont2=cont2+1
+ }
+
+ ;4.3
+ Write !,"Exercicio_3"
+ For a=n1:1:n2
+ {
+	If a#3=0
+	{
+		Set cont3=cont3+1
+		Write a_" é divisivel por 3",!
+	}
+ 	Write !,cont3
+ }
+ 
+ Quit
+
+

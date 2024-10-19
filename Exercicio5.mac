@@ -1,0 +1,22 @@
+ROUTINE Exercicio5
+Exercicio5
+
+ Read "Informe número de alunos para cadastro: ",seqAluno
+
+ For i=1:1:seqAluno
+ {
+	 Write !,"Informe dados para o aluno "_i,!
+	 Read "Matricula........: ",matricula Quit:matricula?1""  
+	 Read "Nome Completo....: ",nome 
+	 Read "Telefone.........: ",telefone 
+	 Read "Data Nascimento..: ",dataNascimento 
+	 Read "Sexo.............: ",sexo 
+	 
+	 Set ^tAluno(i,"Matricula")=matricula
+	 Set ^tAluno(i,"Nome")=nome
+	 Set ^tAluno(i,"Telefone")=telefone
+	 Set ^tAluno(i,"Data Nascimento")=dataNascimento
+	 Set ^tAluno(i,"Sexo")=sexo
+ }
+ zw ^tAluno
+	 

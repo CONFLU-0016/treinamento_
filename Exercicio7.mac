@@ -1,0 +1,6 @@
+ROUTINE Exercicio7
+Exercicio7
+
+ Read "Nome: ",nome Write $Length(nome),!
+ Set nomex=$TR(nome," ","") Write "Qtde caracteres do nome s/ espacos: "_$Length(nomex),!
+ Set nomey=$TR(nome," ","|") Write "Nome trocando espacos por '|': "_nomey,!

@@ -1,0 +1,10 @@
+ROUTINE Exercicio6
+Exercicio6
+
+ Read "Data: ",data,!
+ Write "Hora interna:  ",$ZDH(data,4),!
+ Write "Hora islamico: ",$ZD($ZDH(data,4),18),!
+ Write "Mes  islamico: ",$Piece($ZD($ZDH(data,4),18)," ",2)
+
+
+ 

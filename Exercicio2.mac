@@ -1,0 +1,16 @@
+ROUTINE Exercicio2
+Exercicio2
+ Read "digite valor de x: ",x
+ Read "digite valor de y: ",y
+ 
+ Set (contImpar,contPar)=0
+ 
+ For a=x:1:y
+ {
+	If a#2=0 write a_" é par",! Set contPar=contPar+1
+	Else  write a_" é ímpar",! Set contImpar=contImpar+1
+ }
+ 
+ Write !,"Total de números pares: "_contPar
+ Write !,"Total de números ímpares "_contImpar
+ Quit
